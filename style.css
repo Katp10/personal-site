@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color:#2520ba;
+  }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  h1{
+    
+    text-align: center;
+    top:50%;
+    font-family: 'Ranchers', cursive;
+    font-size: 40px;
+    color:floralwhite;
+    letter-spacing: 3px;
+  
+   
+  }
+  
+div.content{
+  height: 10em;
+  position: relative;
+  width: 100%;
+  
+}
+div.content h1{
+  position: absolute;
+  top:175%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-color: black;
+  opacity: .7;
+  font-family: 'Delius', cursive;
+  
+
+  
+ 
+  
+ 
+  
+}
+
+p{
+  text-align: center;
+  color: floralwhite;
+  bottom: auto;
+  font-size: 22px;
+  font-family: 'Ropa Sans', sans-serif;
+  ;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover{
+  font-weight: bold;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  ;
+  ;
+
+  
+ 
+  
+ 
+  
+}
+#about-me{
+  font-size: 22px;
+  margin: 2%;
+  padding: 8%;
+  background-color: #2621ba;
+  color:white;
+  
+}
+#Aboutbody{
+  background-color: #2621ba;
+  background-attachment: fixed;
+  background-size: cover;
+
+  
+}
+#Aboutbody body{
+  opacity: .1;
+}
+h5{
+  margin-top: 175%;
+  font-size: large;
+  padding: 5%;
+  position: relative;
+
+}
+#about1{
+ 
+  overflow: hidden;
+}
+
